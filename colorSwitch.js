@@ -17,7 +17,6 @@ const refs = {
   stopBtn: document.querySelector('[data-action="stop"]'),
 }
 
-console.log(refs.body);
 refs.startBtn.addEventListener('click', onStartClick);
 refs.stopBtn.addEventListener('click', onStopClick);
 let intervalId = null;
